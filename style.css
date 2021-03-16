@@ -1,0 +1,10 @@
+.greeting{
+	text-align: center;
+	font-family: monospace;
+	font-size: 5rem;
+	font-kerning: 1px;
+}
+
+.greeting:hover{
+	color: blue;
+}
