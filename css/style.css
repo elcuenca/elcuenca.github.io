@@ -1,0 +1,49 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #f8f8ff;
+	font-family: Roboto;
+}
+
+.home {
+	overflow: hidden;
+}
+
+/* navbar */
+nav {
+	postion: fixed !important;
+	top: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	z-index: 2;
+}
+
+.menu_logo, .menu_items-link{
+	padding: 40px;
+}
+
+.menu_logo a{
+	color: #000000;
+	font-size: 30px;
+	font-family: Fraunces;
+	text-decoration: none;
+}
+
+.menu_items {
+	display: flex;
+}
+
+.menu_items-link a{
+	color: #000000;
+	font-size: 15px;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+.menu_items-link.active a {
+	text-decoration: underline wavy black;
+}
